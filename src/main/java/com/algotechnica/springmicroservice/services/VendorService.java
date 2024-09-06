@@ -28,6 +28,10 @@ public class VendorService {
         vendors.put("1", vendor1);
         vendors.put(vendors.size() + "10", vendor2);
         vendors.put(vendors.size() + "10", vendor3);
+        vendor1.setCode("code1");
+        vendor2.setCode("code2");
+        vendor3.setCode("code3");
+        
     }
 
     public Vendor getVendor(String code) {
